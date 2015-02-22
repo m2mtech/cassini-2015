@@ -13,6 +13,8 @@
 		5B11DF5D1A9A8BD500D43324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B11DF5C1A9A8BD500D43324 /* Images.xcassets */; };
 		5B11DF601A9A8BD500D43324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B11DF5E1A9A8BD500D43324 /* LaunchScreen.xib */; };
 		5B11DF6C1A9A8BD500D43324 /* CassiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11DF6B1A9A8BD500D43324 /* CassiniTests.swift */; };
+		5B11DF761A9A8C3D00D43324 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11DF751A9A8C3D00D43324 /* ImageViewController.swift */; };
+		5B11DF781A9A8F6300D43324 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11DF771A9A8F6300D43324 /* DemoURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 		5B11DF651A9A8BD500D43324 /* CassiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CassiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B11DF6A1A9A8BD500D43324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B11DF6B1A9A8BD500D43324 /* CassiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniTests.swift; sourceTree = "<group>"; };
+		5B11DF751A9A8C3D00D43324 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		5B11DF771A9A8F6300D43324 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		5B11DF791A9A98C300D43324 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 		5B11DF471A9A8BD400D43324 = {
 			isa = PBXGroup;
 			children = (
+				5B11DF791A9A98C300D43324 /* README.md */,
 				5B11DF521A9A8BD500D43324 /* Cassini */,
 				5B11DF681A9A8BD500D43324 /* CassiniTests */,
 				5B11DF511A9A8BD500D43324 /* Products */,
@@ -77,11 +83,10 @@
 		5B11DF521A9A8BD500D43324 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				5B11DF551A9A8BD500D43324 /* AppDelegate.swift */,
-				5B11DF571A9A8BD500D43324 /* ViewController.swift */,
 				5B11DF591A9A8BD500D43324 /* Main.storyboard */,
-				5B11DF5C1A9A8BD500D43324 /* Images.xcassets */,
-				5B11DF5E1A9A8BD500D43324 /* LaunchScreen.xib */,
+				5B11DF571A9A8BD500D43324 /* ViewController.swift */,
+				5B11DF751A9A8C3D00D43324 /* ImageViewController.swift */,
+				5B11DF771A9A8F6300D43324 /* DemoURL.swift */,
 				5B11DF531A9A8BD500D43324 /* Supporting Files */,
 			);
 			path = Cassini;
@@ -90,6 +95,9 @@
 		5B11DF531A9A8BD500D43324 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B11DF5E1A9A8BD500D43324 /* LaunchScreen.xib */,
+				5B11DF5C1A9A8BD500D43324 /* Images.xcassets */,
+				5B11DF551A9A8BD500D43324 /* AppDelegate.swift */,
 				5B11DF541A9A8BD500D43324 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B11DF781A9A8F6300D43324 /* DemoURL.swift in Sources */,
 				5B11DF581A9A8BD500D43324 /* ViewController.swift in Sources */,
+				5B11DF761A9A8C3D00D43324 /* ImageViewController.swift in Sources */,
 				5B11DF561A9A8BD500D43324 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
